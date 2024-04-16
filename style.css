@@ -1,0 +1,213 @@
+/* Стили формы */
+.cred-body {
+    font-family: Arial, sans-serif;
+    background-color: #11191f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Установка фиксированной ширины для формы */
+}
+.auth-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Установка фиксированной ширины для формы */
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.cred-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cred-input[type="text"], .cred-input[type="email"], .cred-input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cred-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cred-button:hover {
+    background-color: #003d82;
+}
+
+
+/* Основные стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #11191f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #11191f; */
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: #1095c1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1095c1;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Секция мероприятий */
+.events-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.event {
+    margin: 3px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(45% - 20px); /* Расчет ширины для двух событий в одной строке */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event h2 {
+    margin-top: -10px;
+    color: #0056b3;
+}
+
+.event p {
+    color: #333;
+    padding: 10px;
+}
+
+p.price{
+    margin-left: -61px;
+}
+
+.event a {
+    display: block;
+    color: #1095c1;
+    text-align: center;
+    padding: 24px 10px;
+    text-decoration: none;
+}
+
+form button{
+    color: #0056b3; 
+    margin-top: 28%
+}
+
+.form button {
+    height: 7%; 
+
+}
+
+.event-img{
+    width: 100%;
+}
+
+/* Стили формы events_add */
+.event-group {
+    margin-bottom: 10px;
+    margin-right: 2%;
+}
+
+.event-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.event-input[type="text"], .event-input[type="file"], .event-input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.event-button {
+    margin-top: 2%;
+    width: 11%;
+    height: 10%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-button:hover {
+    background-color: #003d82;
+}
+
+.event_form{
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+}
+
+/* Футер */
+footer {
+    font-size: 0.8em;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+h1 {
+    color: #bbc6ce;
+}
